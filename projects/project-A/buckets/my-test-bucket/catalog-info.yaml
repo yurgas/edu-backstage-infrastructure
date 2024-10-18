@@ -1,12 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-test-bucket
-  description: Cloud Storage Bucket
-  tags:
-    - gcp
-    - bucket
+  name: "my-test-bucket"
 spec:
-  type: infra
-  owner: team-A
+  type: infrastructure
+  owner: user:guest
   lifecycle: experimental
