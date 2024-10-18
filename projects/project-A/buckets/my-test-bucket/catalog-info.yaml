@@ -2,7 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: "my-test-bucket"
+  description: Cloud Storage Bucket
+  tags:
+    - gcp
+    - gcs-bucket
 spec:
   type: gcs-bucket
-  owner: user:guest
+  owner: team-A
   lifecycle: experimental
